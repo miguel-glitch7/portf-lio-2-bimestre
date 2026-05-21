@@ -1,0 +1,28 @@
+:root{
+    --main-color: #00eeff;
+    --text-color: #ffffff;
+    --bg-color-01: #1f242b;
+    --bg-color-02: #323946;
+    --color-00: #0000001a;
+    --color-titulo: red;
+}
+/* O ROOT SERVE PARA DEIXAR MAIS RAPIDO E NÃO PRECISAR COLOCAR A COR TODA HORA, TIPO UM ATALHO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+/* O * SERVE PARA MODIFICAR TODO O SITE */
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: var(--bg-color-01);
+    color: var(--text-color);
+}
